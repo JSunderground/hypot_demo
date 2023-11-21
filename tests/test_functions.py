@@ -1,4 +1,5 @@
-from hypot.functions import addition, squared, sqroot
+from hypot.functions import addition, squared, sqroot, hypot
+#import pytest
 
 # test addition
 ## 4+7=11
