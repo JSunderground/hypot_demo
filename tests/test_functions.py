@@ -1,3 +1,5 @@
+from hypot.functions import addition, squared, sqroot
+
 # test addition
 ## 4+7=11
 def test_addition_int():
