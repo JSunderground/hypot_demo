@@ -1,4 +1,4 @@
-def addition(a,b):
+def addition(a, b):
     """This function returns a plus b
 
     :param a: the first number
@@ -7,14 +7,16 @@ def addition(a,b):
     :type b: int or float
     :return: The sum of the inputs
     :rtype: int or float
-    """    
-    o = a+b
+    """
+    o = a + b
     if isinstance(a, int) != True and isinstance(a, float) != True:
-        return "PLEASE USE INTEGERS OR FLOATS" 
+        return "PLEASE USE INTEGERS OR FLOATS"
     elif isinstance(b, int) != True and isinstance(b, float) != True:
-        return "PLEASE USE INTEGERS OR FLOATS"   
+        return "PLEASE USE INTEGERS OR FLOATS"
     else:
         return o
+
+
 def squared(a):
     """Calculate the square of a number
 
@@ -22,9 +24,11 @@ def squared(a):
     :type a: int or float
     :return: The square of input
     :rtype: int or float
-    """    
-    o = a*a
+    """
+    o = a * a
     return o
+
+
 def sqroot(a):
     """Calculate the square root of a number
 
@@ -32,9 +36,11 @@ def sqroot(a):
     :type a: int or float
     :return: The squareroot of input
     :rtype: int or float
-    """  
-    return a**(0.5)
-def hypot(a,b):
+    """
+    return a ** (0.5)
+
+
+def hypot(a, b):
     """Calculate the hypotenuse
 
     :param a: First input
@@ -43,6 +49,6 @@ def hypot(a,b):
     :type b: int or float
     :return: The length of the hypotenuse of a right angled triangle, when the other side lengths are input a and b
     :rtype: int or float
-    """    
-    o = sqroot(addition(squared(a),squared(b)))
+    """
+    o = sqroot(addition(squared(a), squared(b)))
     return o
