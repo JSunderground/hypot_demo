@@ -1,8 +1,8 @@
 def addition(a,b):
     o = a+b
-    if isinstance(a, int) != True && isinstance(a, float) != True:
+    if isinstance(a, int) != True and isinstance(a, float) != True:
         return "PLEASE USE INTEGERS OR FLOATS" 
-    elif isinstance(b, int) != True && isinstance(b, float) != True:
+    elif isinstance(b, int) != True and isinstance(b, float) != True:
         return "PLEASE USE INTEGERS OR FLOATS"   
     else:
         return o
